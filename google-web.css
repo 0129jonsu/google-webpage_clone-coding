@@ -105,7 +105,7 @@ input{
 }
 @media(max-width:670px){
     .search-bar{
-        width:450px !important;
+        width:449px !important;
     }
 }
 @media(max-width:560px){
