@@ -1,15 +1,9 @@
-<script>
-    function searchData(){
-        var si = "https://www.google.com/search?q=" + document.getElementById('inputValue').value;
-        window.location = si;
-        
-    }
-</script>
-
 <!DOCTYPE html>
 <html>
     <head>
-    
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="google-web.css" type="text/css">
+        <script src="google-web.js"></script>
     </head>
 
     <body> 
@@ -37,8 +31,8 @@
                         </path>
                 </svg>
             </div>
-            <div class="nav-img" style="width:32px; height:32px;">
-                <img style="width:32px; height:32px; border-radius:50%;" src="google-profile.png" alt="" >
+            <div class="nav-img" style="width:32px; height:32px;" onclick="window.open('https://github.com/0129jonsu')">
+                <img style="width:32px; height:32px; border-radius:50%;" src="google-image\google-profile.png" alt="" >
             </div>
         </nav>
 
@@ -54,7 +48,7 @@
                 >
                 <!-- logo -->
                 <div style="margin-top:100px">
-                    <img src="google-logo.png" alt="" style="filter:brightness(0) invert(1); ">
+                    <img src="google-image\google-logo.png" alt="" style="filter:brightness(0) invert(1); ">
                 </div>
                 <!-- search bar -->
                 <div class="search-bar"
@@ -123,40 +117,40 @@
                 </div>
                 <!-- bottons -->
                 <div class="buttons">
-                    <div class="tile"style="display:flex"  onclick="location.href='https:www.youtube.com'">
-                        <div class="tile-u">
-                            <button class="button-shape">
-                                <img src="google-youtube.png">
-                            </button>
-                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M14 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
-                            </svg>
-                        </div>
-                        <div class="tile-text">
-                            <span>youtube</span>
-                        </div>   
-                    </div>
-                    <div class="tile"style="display:flex" onclick="location.href='https:www.netflix.com/kr'">
-                        <div class="tile-u">
-                            <button class="button-shape">
-                                <img src="google-netflix.png">
-                            </button>
-                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M14 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
-                            </svg>
-                        </div>
-                        <div class="tile-text">
-                            <span>Netflix</span>
-                        </div>   
-                    </div>
-                    <div class="tile"style="display:flex" onclick="location.href='https:www.naver.com'">
+                    <div class="tile"style="display:flex" onclick="window.open('https://www.youtube.com')">
                         <div class="tile-u" >
                             <button class="button-shape">
-                                <img src="google-Naver.png">
+                                <img src="google-image\google-youtube.png">
                             </button>
-                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M14 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
                             </svg>
                         </div>
                         <div class="tile-text">
-                            <span>Naver</span>
+                            <spen>youtube</spen>
+                        </div>   
+                    </div>
+                    <div class="tile"style="display:flex" onclick="window.open('https://www.netflix.com/kr/')">
+                        <div class="tile-u">
+                            <button class="button-shape">
+                                <img src="google-image\google-netflix.png">
+                            </button>
+                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </svg>
+                        </div>
+                        <div class="tile-text">
+                            <spen>Netflix</spen>
+                        </div>   
+                    </div>
+                    <div class="tile"style="display:flex" onclick="window.open('https://www.naver.com')">
+                        <div class="tile-u">
+                            <button class="button-shape">
+                                <img src="google-image\google-naver.png">
+                            </button>
+                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </svg>
+                        </div>
+                        <div class="tile-text">
+                            <spen>Naver</spen>
                         </div>   
                     </div>
                     <div class="tile"style="display:flex">
@@ -166,11 +160,11 @@
                                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/><path d="M0 0h24v24H0z" fill="none"/>
                                 </svg>
                             </button>
-                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M14 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
                             </svg>
                         </div>
                         <div class="tile-text">
-                            <span>Add</span>
+                            <spen>Add</spen>
                         </div>   
                     </div>
                     <div class="tile"style="display:flex">
@@ -180,15 +174,30 @@
                                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/><path d="M0 0h24v24H0z" fill="none"/>
                                 </svg>
                             </button>
-                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M14 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
                             </svg>
                         </div>
                         <div class="tile-text">
-                            <span>???</span>
+                            <spen>?????</spen>
+                        </div>   
+                    </div>
+                    <div class="tile"style="display:flex">
+                        <div class="tile-u">
+                            <button class="button-shape">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/><path d="M0 0h24v24H0z" fill="none"/>
+                                </svg>
+                            </button>
+                            <svg class="button-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffff" ><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                            </svg>
+                        </div>
+                        <div class="tile-text">
+                            <spen>!!!</spen>
                         </div>   
                     </div>
                 </div>
             </div>
         </div>
     </body>
+</html>
 </html>
